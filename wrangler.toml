@@ -1,0 +1,12 @@
+name = "bot-worker"
+main = "index.js"
+compatibility_date = "2025-04-24"
+type = "javascript"
+account_id = "d6824a9e7304b42a0b48cdf2ed1e52d9"
+workers_dev = true
+
+[build]
+upload.format = "modules"
+
+[observability.logs]
+enabled = true
